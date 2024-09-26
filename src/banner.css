@@ -1,0 +1,19 @@
+.banner__list {
+   display: grid;
+   grid-template-columns: repeat(12, 1fr); 
+   padding-top: 6rem;
+}
+.banner__item {
+  grid-column: span 6;
+}
+.banner__cover  {
+   grid-column: span 6;
+}
+.banner__shape {
+  position: absolute;
+  max-width: 30%;
+  z-index: -1;
+  top: -7rem;
+  right: 0px;
+  height: 35rem;
+}
