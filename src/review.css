@@ -73,25 +73,14 @@
   width: 1.5rem;
    height: 1.5rem;
 }
-.slick-dots li button:before{
-   font-family: 'slick';
-   font-size: 15px;
-   line-height: 20px;
-   position: absolute;
-   top: 0;
-   left: 0;
-   width: 20px;
-   height: 20px;
-   content: '•';
-   text-align: center;
-   opacity: .25;
-   color: black;
+.slick-dots li button:before {
+   font-size: 15px !important;
+   color: black !important;
 }
-.slick-dots li.slick-active button:before
-{
-   opacity: .75;
-   color: #FE6019;
-  
+
+.slick-dots li.slick-active button:before {
+   opacity: .75 !important;
+   color: #FE6019 !important;
 }
 @media screen and (max-width: 768px){
    .reviews__content {

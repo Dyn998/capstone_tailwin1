@@ -63,6 +63,10 @@ footer {
 .social__icons li:hover a path {
  fill: #FFFFFF;
 }
+.footer__item ul li:hover a  {
+  text-decoration: underline;
+  color:  #FE6019;
+}
 .footer__bottom {
  text-align: center;
  padding-top: 4rem;

@@ -12,8 +12,8 @@
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
    crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
-   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+   <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> 
    
    <link rel="stylesheet" href="./index.css">
    <link rel="stylesheet" href="./src/header.css">
@@ -28,13 +28,13 @@
 <header div="header">
   <div class="container">
     <div class="header__inner">
-       <a href="/" class="logo">
+       <a href="./index.html" class="logo">
          <img src="./Public/img/logo.svg" alt="logo">
        </a>
        <nav class="nav">
            <ul class="nav__list">
                <li class="nav__item ">
-                   <a href="#" class="nav__link active">Home</a></li>
+                   <a href="./index.html" class="nav__link active">Home</a></li>
                <li class="nav__item">
                    <a href="#" class="nav__link">About</a></li>
                <li class="nav__item">
@@ -228,6 +228,7 @@
    <div class="service__item">
        <div class="service__img-2">
            <img src="./Public/img/collaboration.png" alt="#">
+           <img src="./Public/img/shape.svg" id="shape__image" alt="#">
        </div>
        <div class="service__text-2">
            <h2 class="service__title">  Accept payments any country in this whole universe </h2>
@@ -490,16 +491,16 @@
          <h4>Quick Links</h4>
        <ul>
          <li>
-           <a href="/">About</a>
+           <a href="https://capstone-tailwind1.vercel.app/about.html">About</a>
          </li>
          <li>
-           <a href="#">Category</a>
+           <a href="./index.html">Category</a>
          </li>
          <li>
-           <a href="#">Testimonial</a>
+           <a href="./index.html">Testimonial</a>
          </li>
          <li>
-           <a href="/">Contact</a>
+           <a href="https://capstone-tailwind1.vercel.app/contact.html">Contact</a>
          </li>
        </ul>
        </div>
@@ -519,12 +520,11 @@
        </p>
      </div>
    </div>
-
  </div>
 </footer>
 <!--  jQuery và Slick Slider JS -->
-<script type="text/javascript" src="//code.jquery.com/jquery-3.6.0.min.js"></script>
-<script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
 
 <script>
  $(document).ready(function(){
