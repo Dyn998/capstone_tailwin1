@@ -563,5 +563,15 @@
      });
    });
 </script>
+<script>
+  function playVideo() {
+  var videoPlayer = document.getElementById("videoPlayer");
+  var videoIframe = document.getElementById("videoIframe");
+
+  videoPlayer.style.display = "block";
+  videoIframe.src += "?autoplay=1";    
+}
+</script>
+
 </body>
 </html>
